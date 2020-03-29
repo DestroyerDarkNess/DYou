@@ -19,7 +19,7 @@ echo/
 bg cursor 0
 insertbmp /p:de.bmp
 Batbox /g 348 25
-cmdMenuSel f870 "                                        Bajar Video De Youtube" "                                                 Salir"
+cmdMenuSel f870 "                                        Download Youtube Videos" "                                                 Salir"
 
 if %ERRORLEVEL% == 1 goto descarga
 if %ERRORLEVEL% == 2 exit
@@ -32,7 +32,7 @@ mode con: COLS=89 LINES=35
 Batbox /g 0 50
 insertbmp /p:you.bmp
 echo/
-set /p unidad= Ingrese el URL del Video :  
+set /p unidad= Enter the URL of the Video:  
 DELL %unidad%
 echo.
 )
